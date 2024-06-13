@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog de café</title>
+    <meta name="description" content="Página web de blog de café" />
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!--PRELOAD  -->
+
+    <link rel="preload" href="css/normalize.css" as="style" />
+    <link rel="stylesheet" href="css/normalize.css" />
+
+    <link
+      rel="preload"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"
+      crossorigin="crossorigin"
+      as="font"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preload" href="css/styles.css" as="style" />
+
+    <link rel="preload" href="img/blog1.jpg" as="image" />
+
+    <!-- PREFETCH -->
+
+    <link rel="prefetch" href="nosotros.html" as="document" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="contenedor">
+        <div class="barra">
+          <a class="logo" href="index.html">
+            <h1 class="logo__nombre no-margin centrar-texto">
+              Blog<span class="logo__bold">DeCafé</span>
+            </h1>
+          </a>
+
+          <nav class="navegacion">
+            <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+            <a href="cursos.html" class="navegacion__enlace">Cursos</a>
+            <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+          </nav>
+        </div>
+      </div>
+
+      <div class="header__texto">
+        <h2 class="no-margin">Blog de cafe con consejos y cursos</h2>
+        <p class="no-margin">
+          Aprende de los expertos las mejores recetas y consejos
+        </p>
+      </div>
+    </header>
+
+    <div class="contenedor contenido-principal">
+      <main class="blog">
+        <h3 class="titulo__blog">Nuestro Blog</h3>
+
+        <article class="entrada">
+          <div class="entrada__imagen">
+            <picture>
+              <source srcset="img/blog1.webp" type="image/webp" />
+              <img loading="lazy" src="img/blog1.jpg" alt="Imagen1 blog" />
+            </picture>
+          </div>
+
+          <div class="entrada__contenido">
+            <h4 class="no-margin">Tipos de granos de cafe</h4>
+            <p class="justificar_texto">
+              Al igual que el vino, elegir el grano adecuado depende de tu
+              paladar. Esto se debe a que los granos de café tienen diferentes
+              características de sabor en función de la parte del mundo en la
+              que se hayan cultivado.
+            </p>
+            <p class="justificar_texto">
+              La altitud, la temperatura y el suelo (incluso la cosecha) también
+              influyen. Además, el tostado de los granos de café produce aún más
+              matices y detalles de sabor.
+            </p>
+            <p class="justificar_texto">
+              Si hablamos de una taza de café, solo hay dos tipos de granos
+              importantes: <b>Arabica</b> y <b>Robusta</b>.
+            </p>
+            <br />
+            <a href="entrada.html" class="boton boton--primario"
+              >Leer entrada</a
+            >
+          </div>
+        </article>
+
+        <article class="entrada">
+          <div class="entrada__imagen">
+            <picture>
+              <source srcset="img/blog2.webp" type="image/webp" />
+              <img loading="lazy" src="img/blog2.jpg" alt="Imagen1 blog" />
+            </picture>
+          </div>
+
+          <div class="entrada__contenido">
+            <h4 class="no-margin">Tres deliciosas recetas de Café</h4>
+            <p><b>Espresso</b></p>
+            <p class="justificar_texto">
+              El mas conocido a nivel global, debemos abrir esta lista hablando
+              del espresso. Es un extracto puro y concentrado de café, también
+              conocido como “negro corto”, es la base para los demás tipos de
+              café y es la experiencia más pura de café que se puede disfrutar,
+              amado por muchos y odiado por otros debido a su fuerte sabor.
+              Normalmenta preparado en una relacion de 1:3, por cada gramo de
+              café tres de agua, así como quiera que utilizamos 7 a 9 granos de
+              café seco, obtendremos 25 ml de café por taza.
+            </p>
+            <br />
+            <p><b>Ristretto</b></p>
+            <p class="justificar_texto">
+              Utilizando la misma cantidad de café que un espresso pero
+              reduciendo el agua a la mitad podremos obtener un ristretto. Su
+              principal diferencia es que el sabor será más intenso, con un
+              color más oscuro y los aceites del café serán más apreciables.
+            </p>
+            <br />
+            <p><b>Macchiato</b></p>
+            <p class="justificar_texto">
+              Traducido del italiano, se refiere a un café manchado. Y si bien
+              un bebedor casual podría fácilmente reconocer un espresso o un
+              cappuccino, el macchiato es algo totalmente diferente. Su
+              preparación se basa de una pequeña cantidad de espuma de leche
+              sobre la superficie de un espresso generando una pequeña mancha,
+              de ahí su nombre, y su sabor es un punto medio entre un espresso y
+              un cappuccino.
+            </p>
+            <br />
+            <a href="entrada.html" class="boton boton--primario"
+              >Leer entrada</a
+            >
+          </div>
+        </article>
+
+        <article class="entrada">
+          <div class="entrada__imagen">
+            <picture>
+              <source srcset="img/blog3.webp" type="image/webp" />
+              <img loading="lazy" src="img/blog3.jpg" alt="Imagen1 blog" />
+            </picture>
+          </div>
+
+          <div class="entrada__contenido">
+            <h4 class="no-margin">Beneficios del Café</h4>
+            <p class="justificar_texto">
+              Se ha demostrado que el consumo regular de café tiene la capacidad
+              no solo de combatir algunas enfermedades crónicas y degenerativas
+              como el Alzheimer, el Parkinson y la Diabetes tipo 2, si no
+              también de proteger la salud del hígado, protegiéndolo de
+              enfermedades como el hígado graso y la cirrosis.
+            </p>
+            <br />
+            <a href="entrada.html" class="boton boton--primario"
+              >Leer entrada</a
+            >
+          </div>
+        </article>
+      </main>
+
+      <aside class="sidebar">
+        <h3 class="titulo__blog">Nuestros cursos y talleres</h3>
+        <ul class="cursos no-padding">
+          <li class="widget-curso">
+            <h4 class="no-margin">
+              Fundamentos y aspectos básicos del barismo
+            </h4>
+            <p class="widget-curso__label">
+              Precio:
+              <span class="widget-curso__info">Gratis</span>
+            </p>
+            <p class="widget-curso__label">
+              Cupos:
+              <span class="widget-curso__info">20 personas</span>
+            </p>
+            <a href="cursos.html" class="boton boton--secundario"
+              >Más Información</a
+            >
+          </li>
+
+          <li class="widget-curso">
+            <h4 class="no-margin">
+              Naturaleza del café y métodos de procesamiento
+            </h4>
+            <p class="widget-curso__label">
+              Precio:
+              <span class="widget-curso__info">$20</span>
+            </p>
+            <p class="widget-curso__label">
+              Cupos:
+              <span class="widget-curso__info">15 personas</span>
+            </p>
+            <a href="cursos.html" class="boton boton--secundario"
+              >Más Información</a
+            >
+          </li>
+
+          <li class="widget-curso">
+            <h4 class="no-margin">Técnicas, catación y tostado del café</h4>
+            <p class="widget-curso__label">
+              Precio:
+              <span class="widget-curso__info">$30</span>
+            </p>
+            <p class="widget-curso__label">
+              Cupos:
+              <span class="widget-curso__info">10 personas</span>
+            </p>
+            <a href="cursos.html" class="boton boton--secundario"
+              >Más Información</a
+            >
+          </li>
+        </ul>
+      </aside>
+    </div>
+
+    <footer class="footer">
+      <div class="contenedor">
+        <a class="logo" href="index.html">
+          <h1 class="logo__nombre no-margin centrar-texto">
+            Blog<span class="logo__bold">DeCafé</span>
+          </h1>
+        </a>
+        <div class="barra">
+          <nav class="navegacion">
+            <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+            <a href="cursos.html" class="navegacion__enlace">Cursos</a>
+            <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+          </nav>
+        </div>
+        <p class="leyenda">Todos los derechos reservados 2023</p>
+      </div>
+    </footer>
+
+    <script src="js/modernizr.js"></script>
+  </body>
+</html>
